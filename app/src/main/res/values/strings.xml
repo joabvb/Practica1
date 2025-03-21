@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CronometroConcurrente</string>
+    <string name="hint_ingresa_tiempo">Ingresa tiempo en segundos</string>
+    <string name="iniciar_temporizador">Iniciar temporizador</string>
+    <string name="reiniciar_temporizador">Reiniciar temporizador</string>
+    <string name="tiempo_restante">Tiempo restante</string>
+    <string name="ultimo_tiempo_na">Último tiempo ingresado: N/A</string>
+    <string name="ingresa_numero_valido">Por favor, ingresa un número válido</string>
+    <string name="ultimo_tiempo_ingresado">Último tiempo ingresado: %1$d segundos</string>
+    <string name="temporizador_reiniciado">Temporizador reiniciado</string>
+    <string name="tiempo_restante_segundos">Tiempo restante: %1$d segundos</string>
+    <string name="temporizador_finalizado">Temporizador finalizado</string>
+</resources>

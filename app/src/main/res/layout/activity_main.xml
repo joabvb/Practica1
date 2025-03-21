@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#95CE81"
+    android:gravity="center" >
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView"
+    android:text="Tiempo: 0s"
+    android:textSize="24sp"
+    android:textColor="#000000"
+    android:layout_gravity="center"
+    android:paddingBottom="20dp"
+    android:textStyle="bold" />
+
+    <Button
+    android:id="@+id/btnStartSequential"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Actividad 1 (Ejecución Secuencial)"
+    android:textSize="16sp"
+    android:layout_marginBottom="16dp"
+    android:background="@color/colorPrimary"
+    android:textColor="#ffffff"
+    android:padding="12dp" />
+
+    <Button
+    android:id="@+id/btnStartConcurrent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Actividad 2 (Ejecución Concurrente)"
+    android:textSize="16sp"
+    android:layout_marginBottom="16dp"
+    android:background="@color/colorAccent"
+    android:textColor="#ffffff"
+    android:padding="12dp" />
+
+    <Button
+    android:id="@+id/btnStartSync"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Actividad 3 (Sincronización de Hilos)"
+    android:textSize="16sp"
+    android:layout_marginBottom="16dp"
+    android:background="@color/colorPrimaryDark"
+    android:textColor="#ffffff"
+    android:padding="12dp" />
+
+    <Button
+    android:id="@+id/btnStop"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Detener Cronómetro"
+    android:textSize="16sp"
+    android:layout_marginTop="20dp"
+    android:background="#d32f2f"
+    android:textColor="#ffffff"
+    android:padding="12dp" />
+
+    </LinearLayout>
